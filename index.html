@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="icon" type="image/x-icon" href="./img/rid4.png">
+    <style>
+        /* video background */
+        #background-video {
+            height: 100vh;
+            width: 100vw;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body onresize=" updateLines()">
+    <div id="title-tree">
+        <div id="logo" style="background-image: url(./img/fon.png);"><a href=" https://rodovid.online"><img
+                    src="./img/logo.gif" width="70" id="logo_gif"></a>
+        </div>
+        <h2 class="titleLogo">Шаблон Дерева роду №2 <br>пошуку прямих рідних<br>на 15 персон</h2>
+        <div>--- </div>
+        <figure>
+            <audio controls src="music/rode2.wav">
+            </audio>
+        </figure>
+        <div id="prayer"><a href="#infoUa-prayer">Молитва</a>
+        </div>
+        <div id="infoUa">
+            <a href="#infoUa"><img src="./img/info-3.png"></a>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg"></svg>
+    <div id="screen_ua"><!--заготовка для модальних вікон--></div>
+    <video id="background-video" autoplay loop mute poster="./img/salut-ukraine.png">
+
+        <source src="video/rode1.mp4" type="video/mp4">
+    </video>
+
+
+    <script src="./js/lineageUA.js"></script>
+    <div id="song">
+        <div>У полі калина,<br> У полі червона.<br> Хорошенько цвіте.<br>
+        </div>
+        <div>Приспів:<br>
+            Ой роду наш красний,<br>
+            Роду наш прекрасний,<br>
+            Не цураймося,<br> признаваймося,<br>
+            Бо багацько нас є.<br><br></div>
+        <div>Що перший цвіточок -<br>
+            То рідний батенько.<br>
+            Хорошенько цвіте.<br></div>
+        <div>Приспів.<br>
+        </div>
+        <div>Що другий цвіточок -<br>
+            То рідная ненька.<br>
+            Хорошенько цвіте.<br></div>
+        <div>Приспів.<br>
+        </div>
+        <div>Що третій цвіточок -<br>
+            Рідна сторононька.<br>
+            Хорошенько цвіте.<br></div>
+        <div>Приспів.
+        </div>
+
+    </div>
+</body>
+
+</html>
