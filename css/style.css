@@ -1,0 +1,327 @@
+ body {
+     font-family: Arial, sans-serif;
+     height: 100vh;
+     width: 100vw;
+     background-color: beige;
+    margin:0 auto;
+    list-style: none;
+}
+#title-tree{
+width: 102vw;
+position:absolute;
+top:10px;
+left:10px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+color: white;
+}
+ /**/
+ .header {
+     width: 100vw;
+     min-height: 90px;
+     background: rgba(0, 255, 0, 0.7);
+     display: flex;
+     flex-direction: row;
+     justify-content: stretch;
+     align-items: center;
+     gap: 150px;
+ }
+ .titleLogo {
+     font: bold 28px Ukrainian_Izhitsa Pelagy;
+     font-weight: 700;
+ }
+        #logo {
+            width: 70px;
+            height: 70px;
+            background-image: url(./img/fon.png);
+            border-radius: 12px;
+            border: 2px solid white;
+        }
+
+        /* video background */
+        #background-video {
+            height: 100vh;
+            width: 100vw;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        /* page content */
+
+        #prayer {
+            background-color: beige;
+            width: 80px;
+            height: 50px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+      #song {
+          width: 100vw;
+          display: flex;
+          justify-content: space-around;
+          color: white;
+          position: absolute;
+          bottom: -40px;
+      }
+ .person {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     width: 50%;
+     height: 22vh;
+     padding: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ .persons {     
+     background-image: url(./img/рамка.png);
+width: 50px;   
+ }
+#svg{width: 100vw; height: 800px;background: transparent;}
+/*////////////////////////////////////////////////
+////////////////////////////////////////////////*/
+#son-daugther{position: absolute; left: 550px; top: 450px;width: 100px; height: 50px; background:lime;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+#father{ position: absolute; left: 350px; top: 350px; width: 110px;  height: 50px; background: lightblue;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; }
+#mather{ position: absolute; left: 750px; top: 350px; width: 110px; height: 50px; background: lightblue;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+/*діди*/
+#gf1{position: absolute; left: 200px; top: 250px; width: 150px; height: 50px; background: red;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+#gm1{position: absolute; left: 450px; top: 250px; width: 150px; height: 50px; background: red;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+#gf2{position: absolute; left: 650px; top: 250px; width: 150px; height: 50px; background: red;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+#gm2{position: absolute; left: 900px; top: 250px; width: 150px; height: 50px; background: red;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+/* прадіди*/
+#_2gf1{position: absolute; left: 50px; top: 150px; width: 150px; height: 50px;background: beige;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+#_2gm1{position: absolute; left: 205px; top: 150px; width: 150px; height: 50px;  background: beige;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+#_2gf2{position: absolute; left: 360px; top: 150px; width: 150px; height: 50px; background: beige;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+#_2gm2{position: absolute; left: 518px; top: 150px; width: 150px; height: 50px; background: beige;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+#_2gf3{position: absolute; left: 675px; top: 150px; width: 150px; height: 50px; background: beige;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+#_2gm3{position: absolute; left: 830px; top: 150px; width: 150px; height: 50px; background: beige;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+#_2gf4{position: absolute; left: 985px; top: 150px; width: 150px; height: 50px; background: beige;border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+#_2gm4{position: absolute; left: 1140px; top: 150px; width: 150px; height: 50px;background: beige;
+border: 1px solid green;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+
+ #God{
+position: absolute; left: 550px; top: 0px; width: 100px; height: 100px; border-radius: 50px;
+z-index:9;background-color: beige;display:flex; flex-direction: column; justify-content: space-around;align-items: center;
+}
+
+
+#nameGod{position: absolute; }
+/*/////////////////////////////////////////////
+//////////////////////////////////////////////*/
+ .namePerson {
+     font-size: 1em;
+     padding: 2px;
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+     transition: all 0.3s ease-out;
+ }
+ .namePerson:hover {
+     background: #06D85F;
+ }
+/*********************************************/
+ .personName-eclipse {/*ЗАТЕМНЕННЯ*/
+     position: absolute;
+     z-index: 11;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background: rgba(0, 0, 0, 0.7);
+     transition: opacity 500ms;
+     display: none;
+ }
+ .personName-eclipse:target {
+     display: block;
+     opacity: 1;
+     border: 2px solid #06D85F;
+     height: 150vh;
+ }
+.titleModal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ .personModalInfo {
+     margin: 40px auto;
+     padding: 10px;
+     background: #fff;
+     border-radius: 8px;
+     border: 12px solid rgba(0, 190, 0, .5);
+     width: 30%;
+     position: relative;
+     transition: all 5s ease-in-out;
+ }
+ .personModalInfo h2 {
+     color: #333;
+     font-family: Tahoma, Arial, sans-serif;
+ }
+ .personModalInfo .close {
+     transition: all 200ms;
+     font-size: 30px;
+     font-weight: bold;
+     color: #333;text-decoration: none;
+ }
+ .personModalInfo .close:hover {
+     color: #06D85F;
+ }
+ .contentModal {
+     min-height: 200px;
+     overflow: auto;
+     margin: 30px 10px 10px 10px;
+     font-weight: 400;
+     line-height: 1.5;
+ }
+/***********************************/
+ .generation {
+     width: 100vw;
+     height: 100px;
+     background-color: rgb(0, 255, 0, .5);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 25px;
+     background-image: url(./img/fathers2.png);
+ }
+ .nodeFamily {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     min-width: 18%;
+     height: 70px;
+     background: beige;
+     padding: 5px;
+     border: 2px solid green;
+     border-radius: 5px;
+     text-align: center;
+ }
+ /**************media****
+*****************media*****
+*******************media****/
+ /**/
+ @media screen and (max-width: 768px) {
+  /* … */
+ body {
+     font-family: Arial, sans-serif;
+     height: 200vh;
+}
+#title-tree{
+width: 450px;
+position:absolute;
+top:10px;
+left:5px;
+color:white;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items:center;
+}
+#svg{width: 100vw; height: 800px;background: transparent; }
+#flags{position: fixed;left: 310px;top:20px;}
+ #son-daugther{ position: absolute;top:500px;left: 300px;align-items: center;display:flex; flex-direction: column; justify-content: space-around; width: 50px; height:70px; font-size: 10px;font-weight:700;background: beige;padding:10px;}
+/*батьки*/
+#father{ position: absolute; left: 250px; top: 300px; width: 110px; display:flex; flex-direction: column; justify-content: space-around;align-items: center; width: 50px; height:70px; font-size: 10px;font-weight:700; background: beige; padding:10px; }
+#mather{ position: absolute; left: 250px; top: 700px;display:flex; flex-direction: column; justify-content: space-around; align-items: center;width: 50px; height:70px; font-size: 10px;font-weight:700;background: beige; padding:10px;}
+/*діди*/
+#gf1{position: absolute; left: 180px; top: 200px; display:flex; flex-direction: column; justify-content: space-around;align-items: center;
+ width: 50px; height:70px; font-size: 10px;font-weight:700;background: beige;padding:10px;}
+#gm1{position: absolute; left: 180px; top: 400px;display:flex; flex-direction: column; justify-content: space-around;align-items: center; 
+width:50px; height:70px; font-size: 10px;font-weight:700;background:beige;padding:10px;}
+#gf2{position: absolute; left: 180px; top: 600px; display:flex; flex-direction: column; justify-content: space-around;align-items: center;
+width:50px; height:70px; font-size: 10px;font-weight:700;background: beige;padding:10px;}
+#gm2{position: absolute; left: 180px; top: 800px; display:flex; flex-direction: column; justify-content: space-around; align-items: center;
+width:50px; height:70px; font-size: 10px;font-weight:700;background: beige;padding:10px;}
+/* прадіди*/
+#_2gf1{position: absolute; display:flex; flex-direction: column; justify-content: space-around;align-items: center;
+ left: 100px; top: 150px; width: 50px; height:70px; font-size: 10px;font-weight:700;background: beige;padding:10px;}
+#_2gm1{position: absolute;display:flex; flex-direction: column; justify-content: space-around;align-items: center;
+ left: 100px; top: 250px; width: 50px; height:70px; font-size: 10px;font-weight:700;background: beige;padding:10px; }
+#_2gf2{position: absolute; display:flex; flex-direction: column; justify-content: space-around;align-items: center;
+left: 100px; top: 350px; width: 50px; height:70px; font-size: 10px;font-weight:700;background:  beige;padding:10px;}
+#_2gm2{position: absolute; left: 100px; top: 450px;display:flex; flex-direction: column; justify-content: space-around;align-items: center; width: 50px; height:70px; 
+font-size: 10px;font-weight:700;background: beige;padding:10px;}
+#_2gf3{position: absolute; left: 100px; top: 550px; display:flex; flex-direction: column; justify-content: space-around; align-items: center;width: 50px; height:70px; 
+font-size: 10px;font-weight:700;background: beige;padding:10px;}
+#_2gm3{position: absolute; left: 100px; top: 650px; display:flex; flex-direction: column; justify-content: space-around;align-items: center; width: 50px; height:70px; 
+font-size: 10px;font-weight:700;background: beige;padding:10px;}
+#_2gf4{position: absolute; left: 100px; top: 750px;display:flex; flex-direction: column; justify-content: space-around;align-items: center; width: 50px; height:70px; 
+font-size: 10px;font-weight:700;background: beige;padding:10px;}
+#_2gm4{position: absolute; left: 100px; top: 850px; display:flex; flex-direction: column; justify-content: space-around;align-items: center; width: 50px; height:70px; 
+font-size: 10px;font-weight:700;background: beige;padding:10px;}
+
+ #God{
+position: absolute; left: -25px; top: 530px; width: 100px; height: 100px; border-radius: 50px;
+z-index:9;background-color: beige;display:flex; flex-direction: column; justify-content: space-around;align-items: center;
+}
+     .titleLogo {
+         font: bold 18px Ukrainian_Izhitsa Pelagy;
+         font-weight: 700;
+     }
+    #logo {
+    position: absolute; 
+    left: 10px; 
+     top: 10px;
+    width: 25px;
+    height: 25px;
+    background-image: url(./img/fon.png);
+    border-radius: 2px;
+    border: 2px solid white;
+}
+#logo_gif {
+    width: 25px;
+    height: 25px;
+}
+     #infoUa{position: absolute; left: 420px; top: 10px}
+     .personModalInfo {
+         width: 70%;
+     }
+     .nodeFamily {
+         display: flex;
+         flex-direction: column;
+         justify-content: start;
+         width: 90px;
+         height: 35vh;
+     }
+     .person {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+         width: 60px;
+         height: 22vh;
+         padding: 5px;
+         border-radius: 5px;
+         text-align: center;
+     }
+     .namePerson {
+         font-size: 12px;
+         padding: 2px;
+         color: black;
+         text-decoration: none;
+         cursor: pointer;
+         transition: all 0.3s ease-out;
+         width: 80px;
+     }
+           #song {
+               width: 400px;
+               display: flex;
+               flex-direction: column;
+               align-content: center;
+               align-items: center;
+               color: white;
+               position: absolute;
+               top: 1150px;
+           }
+             
+}
