@@ -394,7 +394,7 @@ document.getElementById('screen_ua').innerHTML = `
 <a class="close" href="#">&times;</a>
 </div>
         <div class="contentModal">
-            <p>Про Сина</p>
+            <p>Про Дочку</p>
         </div>
     </div>
 </div>
